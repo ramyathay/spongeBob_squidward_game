@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		D20C57001C8107600041730B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C56FF1C8107600041730B /* AppDelegate.swift */; };
 		D20C57021C8107600041730B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D20C57011C8107600041730B /* art.scnassets */; };
-		D20C57041C8107600041730B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C57031C8107600041730B /* GameViewController.swift */; };
-		D20C57071C8107600041730B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20C57051C8107600041730B /* Main.storyboard */; };
-		D20C57091C8107600041730B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20C57081C8107600041730B /* Assets.xcassets */; };
 		D20C570C1C8107600041730B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20C570A1C8107600041730B /* LaunchScreen.storyboard */; };
+		D20C57191C8108870041730B /* endScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C57151C8108870041730B /* endScene.swift */; };
+		D20C571A1C8108870041730B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D20C57161C8108870041730B /* GameScene.sks */; };
+		D20C571B1C8108870041730B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C57171C8108870041730B /* GameScene.swift */; };
+		D20C571C1C8108870041730B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20C57181C8108870041730B /* GameViewController.swift */; };
+		D20C571E1C8108A30041730B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20C571D1C8108A30041730B /* Assets.xcassets */; };
+		D20C57211C8108B50041730B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20C571F1C8108B50041730B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D20C56FC1C8107600041730B /* spongeBob_squidward_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spongeBob_squidward_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20C56FF1C8107600041730B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D20C57011C8107600041730B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		D20C57031C8107600041730B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		D20C57061C8107600041730B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D20C57081C8107600041730B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D20C570B1C8107600041730B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D20C570D1C8107600041730B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20C57151C8108870041730B /* endScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = endScene.swift; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/endScene.swift; sourceTree = "<group>"; };
+		D20C57161C8108870041730B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/GameScene.sks; sourceTree = "<group>"; };
+		D20C57171C8108870041730B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/GameScene.swift; sourceTree = "<group>"; };
+		D20C57181C8108870041730B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/GameViewController.swift; sourceTree = "<group>"; };
+		D20C571D1C8108A30041730B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/Assets.xcassets; sourceTree = "<group>"; };
+		D20C57201C8108B50041730B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../IOS/spongeBobSquidwardGame/MotionShooter/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,14 @@
 		D20C56FE1C8107600041730B /* spongeBob_squidward_game */ = {
 			isa = PBXGroup;
 			children = (
+				D20C571F1C8108B50041730B /* Main.storyboard */,
+				D20C571D1C8108A30041730B /* Assets.xcassets */,
+				D20C57151C8108870041730B /* endScene.swift */,
+				D20C57161C8108870041730B /* GameScene.sks */,
+				D20C57171C8108870041730B /* GameScene.swift */,
+				D20C57181C8108870041730B /* GameViewController.swift */,
 				D20C56FF1C8107600041730B /* AppDelegate.swift */,
 				D20C57011C8107600041730B /* art.scnassets */,
-				D20C57031C8107600041730B /* GameViewController.swift */,
-				D20C57051C8107600041730B /* Main.storyboard */,
-				D20C57081C8107600041730B /* Assets.xcassets */,
 				D20C570A1C8107600041730B /* LaunchScreen.storyboard */,
 				D20C570D1C8107600041730B /* Info.plist */,
 			);
@@ -127,9 +136,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20C57021C8107600041730B /* art.scnassets in Resources */,
+				D20C57211C8108B50041730B /* Main.storyboard in Resources */,
+				D20C571A1C8108870041730B /* GameScene.sks in Resources */,
+				D20C571E1C8108A30041730B /* Assets.xcassets in Resources */,
 				D20C570C1C8107600041730B /* LaunchScreen.storyboard in Resources */,
-				D20C57091C8107600041730B /* Assets.xcassets in Resources */,
-				D20C57071C8107600041730B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D20C57041C8107600041730B /* GameViewController.swift in Sources */,
+				D20C571C1C8108870041730B /* GameViewController.swift in Sources */,
+				D20C571B1C8108870041730B /* GameScene.swift in Sources */,
+				D20C57191C8108870041730B /* endScene.swift in Sources */,
 				D20C57001C8107600041730B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,20 +160,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D20C57051C8107600041730B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D20C57061C8107600041730B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D20C570A1C8107600041730B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D20C570B1C8107600041730B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D20C571F1C8108B50041730B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20C57201C8108B50041730B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
